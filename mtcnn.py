@@ -54,6 +54,7 @@ def main(args):
     cv2.imshow('image', img)
     cv2.waitKey(0)
 
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='tensorflow mtcnn')
     parser.add_argument('image', help='image path')
